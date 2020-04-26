@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.avatar {
+    margin-bottom: 1rem;
+}
+
+.name {
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+.left {
+    height: 100vh;
+}
+
+.contact {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.skills {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.languages {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
